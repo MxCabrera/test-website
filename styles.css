@@ -6,15 +6,31 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
+.topTitle {
+   background-color: orange;
+   padding: 2rem 0;
+}
+
 h1 {
    color: red;
    text-align: center;
+   font-size: 2rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   
+}
+
+main {
+   text-align: center;
+   height: 600px;
 }
 
 .jokeBox {
+   border: 1px solid black;
    width: 1200px;
    max-width: 80%;
    margin: 0 auto; 
+   padding: 5rem 0;
 }
 
 .newJoke {
@@ -23,4 +39,15 @@ h1 {
    align-items: center;
    align-content: center;
    text-align: center;
+}
+
+footer {
+   background-color: black;
+   padding: 2rem 0;
+   text-align: center;
+}
+
+footer h2 a {
+   color: white;
+   text-decoration: none;
 }
