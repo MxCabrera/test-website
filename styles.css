@@ -8,4 +8,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 h1 {
    color: red;
+   text-align: center;
+}
+
+.jokeBox {
+   width: 1200px;
+   max-width: 80%;
+   margin: 0 auto; 
+}
+
+.newJoke {
+   margin: 0 auto;
+   width: 50%;
+   align-items: center;
+   align-content: center;
+   text-align: center;
 }
