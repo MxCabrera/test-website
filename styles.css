@@ -22,7 +22,15 @@ h1 {
 
 main {
    text-align: center;
-   height: 600px;
+   height: 668px;
+   padding: 1rem;
+}
+
+.info {
+   width: 80%;
+   text-align: center;
+   margin: 0 auto;
+   padding: 1rem;
 }
 
 .jokeBox {
@@ -31,23 +39,49 @@ main {
    max-width: 80%;
    margin: 0 auto; 
    padding: 5rem 0;
+   background-color: orange;
+}
+
+.funnyJoke {
+   width: 60%;
+   margin: 0 auto;
+   font-size: 1.3rem;
 }
 
 .newJoke {
-   margin: 0 auto;
+   margin: 1rem auto 0rem auto;
    width: 50%;
    align-items: center;
    align-content: center;
    text-align: center;
 }
 
+.chuckPic {
+   width: 100%;
+   margin: 1rem auto;
+}
+
+.chuckPic img {
+   width: 50%;
+}
+
 footer {
    background-color: black;
    padding: 2rem 0;
    text-align: center;
+   margin-top: 2rem;
 }
 
 footer h2 a {
    color: white;
    text-decoration: none;
+}
+
+.imgBox {
+   width: 50%;
+   margin: 0 auto;
+}
+
+.imgBox img {
+   width: 100%;
 }
