@@ -22,8 +22,9 @@ h1 {
 
 main {
    text-align: center;
-   height: 668px;
+   height: 700px;
    padding: 1rem;
+   /* background-color: lightblue; */
 }
 
 .info {
@@ -34,7 +35,7 @@ main {
 }
 
 .jokeBox {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 1200px;
    max-width: 80%;
    margin: 0 auto; 
@@ -63,6 +64,18 @@ main {
 
 .chuckPic img {
    width: 50%;
+}
+
+.flex {
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.flexBox {
+   width: 50%;
+   margin-top: 2rem;
 }
 
 footer {
